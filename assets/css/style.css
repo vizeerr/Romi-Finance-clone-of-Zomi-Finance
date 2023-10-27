@@ -1,0 +1,289 @@
+:root{
+    --secondary-text:#cecece;
+    --boder-btn:hsla(0,0%,100%,0.1607843137254902);
+    --border-tabs:  hsla(0,0%,100%,.0784313725490196);
+    --tertiary-text:#a7a7a9;
+}
+
+body{
+    background-color: #191919;
+    color: #ffffff;
+    font-family:"Relative",sans-serif;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsla(0,0%,100%,.062745098);
+    padding: 0 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 30px;
+}
+
+.logo h2{
+    font-weight: 100;
+}
+.navbar .navItems{
+    display: flex;
+    align-items: center;
+    color: #a7a7a9;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navItems li:hover{
+    color: #ffffff;
+}
+
+.navItems li a{
+    text-decoration: none;
+    color: #a7a7a9;
+    transition: 0.2s ease-in-out;
+
+}
+
+.navItems li a:hover{
+    color: #ffffff;
+}
+
+/* .navbar .leftActions button{
+
+} */
+
+button{
+    color: #fff;
+    padding:5px 15px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    min-height: 2.3em;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #0000;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.btn-Primary{
+    background: #3eb489;
+    
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-Primary:hover{
+    background: #1f7857;
+}
+
+.leftActions{
+    display: flex;
+    column-gap: 1.5em;
+}
+
+.btn-secondary{
+    background: transparent;
+    border: 1px solid var(--boder-btn);
+    column-gap: 10px;
+}
+
+.parallelBtn{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--boder-btn);
+    border-radius: 4px;
+}
+
+
+.parallelBtn button{
+    margin: 0;
+    padding: 0px 9px !important;
+    border: none;
+}
+
+.parallelBtn  span{
+    color: #3f3f3f;
+}
+
+.parallelBtn img{
+    width: 20px;
+}
+
+
+.container{
+    width: 80%;
+    margin: 3.5em auto;
+}
+
+.heroSection h1{
+    font-size: 3.5em;
+    width: 45%;
+    margin: 0;
+    /* font-weight: 600; */
+}
+
+.heroSection h3{
+    font-weight: 100;
+    color: var(--secondary-text);
+    width: 30%;
+    line-height: 1.5em;
+}
+
+.tabs{
+    display: flex;
+    /* column-gap: 3em; */
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.tabCont{
+    display: flex;
+    column-gap: 1em;
+    border: 1px solid var(--border-tabs);
+    padding: 20px;
+    width: 28.5%;
+}
+.tabCont p{
+    margin: 8px;
+    color: var(--secondary-text);
+}
+
+.tabCont h1{
+    margin: 0;
+    font-weight: 300;
+}
+
+.divider{
+    border: 1px solid var(--boder-btn);
+    margin-top: 5em;
+}
+
+.infoTabs{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.headTabs{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.headTabs h3{
+    font-weight: 300;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.maintabs{
+    width: 26%;
+}
+.maintabs p{
+    color: var(--secondary-text);
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.ecoSystem h1{
+    width: 30%;
+    font-weight: 600;
+    font-size: 2.2em;
+    line-height: 1.5em;
+}
+
+
+.ecoSystem .headTabs{
+    column-gap: 10px;
+}
+.ecoSystem .headTabs h3{
+    font-size: 1.4em;
+   
+}
+
+.ecoSystem .disp h3{
+    font-weight: 100;
+    line-height: 1.4em;
+}
+.ecoSystem .disp p{
+    color: var(--secondary-text);
+    margin-bottom: 25px;
+}
+
+.ecoSystem .disp .headTabs{
+    column-gap: 18px;
+}
+
+.ecoSystem .disp .btn-secondary{
+    height: 4.5vh;
+    border: 1px solid #a0a3c4;
+}
+
+.ecoSystem .cards{
+    width: 45.2%;
+    background: #151515;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    border: 1px solid #4d4d4e;
+    border-radius: 8px;
+    padding: 1.5em;
+}
+
+.innerCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    background: #151515;
+    padding-top: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+footer .innerContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLogo{
+    display: flex;
+    gap: 60px;
+    margin: 20px 0;
+}
+
+footer .actions{
+    display: flex;
+    gap: 20px;
+    color: var(--secondary-text);
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

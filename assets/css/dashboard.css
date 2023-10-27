@@ -1,0 +1,118 @@
+.cardTable{
+    margin-bottom: 3em;
+}
+
+.cardTable h1{
+    margin: 10px 0;
+}
+.cardTable h4{
+    font-weight: 100;
+    color: var(--tertiary-text);
+    margin: 5px 0;
+}
+
+.tableCont{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 18px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.tableItems{
+    width: 49%;
+    border: 1px solid #4d4d4e;
+    border-radius: 4px;
+    background: #151515;
+    padding: 8px 0;
+    margin-bottom: 25px;
+    
+}
+.tableCont h5{
+    font-size: 15px;
+    margin: 15px 14px;
+    font-weight: 200;
+}
+
+.tableCont p{
+    font-size: 15px;
+    margin: 0;
+    color: var(--tertiary-text);
+}
+
+.tableCont .divider{
+    margin: 10px 0;
+}
+
+.tableCont button{
+    margin: 15px 0px 10px 15px;
+}
+
+.tableField{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 14px;
+    align-items: center;
+}
+
+.pietab{
+    display: flex;
+}
+
+.mainItem{
+    width: 65%;
+}
+
+.mainItem .head{
+    margin: 10px;
+}
+.mainItem .head p{
+    color: #ffffff;
+}
+.mainItem .head span{
+    font-size: 10px;
+    color: var(--tertiary-text);
+}
+.chart{
+    width: 30%;
+}
+.pie-chart {
+    width: 190px;
+    height: 190px;
+  }
+.index{
+    border: 1px solid #4d4d4e;
+    padding: 5px 0px ;
+    margin-top: 20px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    padding: 14px 12px;
+}
+
+table th{
+    font-weight: 100;
+    color: var(--tertiary-text);
+    font-size: 14px;
+}
+table .fCol p{
+    margin: 0;
+}
+table .fCol span{
+    font-size: 10px;
+    color: var(--tertiary-text);
+}
+table td{
+    margin: 15px 0;
+    
+}
+
+.index .header{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-bottom: 1px solid #4d4d4e;
+    padding: 0 15px;
+}
